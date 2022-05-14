@@ -3,22 +3,28 @@ Visualization Weather Data
 
 Purpose of this assignment was to provide real-time suggestions for our client's ideal hotels? Your first task was to define what you meant by "ideal." So, over the course of the conversation, you narrowed that to hotels that were (1) within a given range of latitude and longitude and that (2) provided the right kind of weather for the client
 
+Requests Library 2.26.0 
+
 * Task: Collect and analyze weather data across cities worldwide.
 * Purpose: PlanMyTrip will use the data to recommend ideal hotels based on clients' weather preferences.
 * Method: Create a Pandas DataFrame with 500 or more of the world's unique cities and their weather data in real time. This process will entail collecting, analyzing, and visualizing the data.
 
 * 1. Collect the Data
-Use the NumPy module to generate more than 1,500 random latitudes and longitudes.
-Use the citipy module to list the nearest city to the latitudes and longitudes.
-Use the OpenWeatherMap API to request the current weather data from each unique city in your list.
-Parse the JSON data from the API request.
-Collect the following data from the JSON file and add it to a DataFrame:
+Import our dependencies and initialize counters and an empty list that will hold the weather data.
+Loop through the cities list.
+Group the cities in sets of 50 to log the process as we find the weather data for each city.
+Two counters will be needed here: one to log the city count from 1 to 50, and another for the sets.
+Build the city_url or endpoint for each city.
+Log the URL and the record and set numbers.
+Make an API request for each city.
+Parse the JSON weather data for the following:
 City, country, and date
 Latitude and longitude
 Maximum temperature
 Humidity
 Cloudiness
 Wind speed
+Add the data to a list in a dictionary format and then convert the list to a DataFrame.
 * 2. Exploratory Analysis with Visualization
 ** Create scatter plots of the weather data for the following comparisons:
 Latitude versus temperature
