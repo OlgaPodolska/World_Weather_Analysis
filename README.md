@@ -9,21 +9,30 @@ Requests Library 2.26.0
 geojson-2.5.0
 gmaps-0.9.0 
 
-## Task: 
+## Tasks: 
 
 ### 1. Retrieve Weather Data
 
 We generated a set of 2,000 random latitudes and longitudes, retrieved the nearest city, and perform an API call with the OpenWeatherMap. In addition to the city weather data we gathered in this module, we used API skills to retrieve the current weather description for each city. Then, we created a new DataFrame containing the updated weather data.
 
+![DataFrame.png](/Weather_Database/DataFrame.png) 
+
 ### 2. Create a Customer Travel Destinations Map
 
-We used input statements to retrieve customer weather preferences, then used those preferences to identify potential travel destinations and nearby hotels. Then, show those destinations on a marker layer map with pop-up markers.
+We used input statements to retrieve customer weather preferences, then used those preferences to identify potential travel destinations and nearby hotels. 
 
-3. Create a Travel Itinerary Map
+![hotels.png](/Vacation_Search/hotels.png) 
+
+Then, show those destinations on a marker layer map with pop-up markers.
+
+![WeatherPy_vacation_map.png](/Vacation_Search/WeatherPy_vacation_map.png) 
+
+### 3. Create a Travel Itinerary Map
 
 
 
 
+Vacation_Search
 Collect and analyze weather data across cities worldwide.
 * Purpose: PlanMyTrip will use the data to recommend ideal hotels based on clients' weather preferences.
 * Method: Create a Pandas DataFrame with 500 or more of the world's unique cities and their weather data in real time. This process will entail collecting, analyzing, and visualizing the data.
