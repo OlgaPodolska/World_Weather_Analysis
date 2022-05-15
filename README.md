@@ -4,6 +4,8 @@ Visualization Weather Data
 Purpose of this assignment was to provide real-time suggestions for our client's ideal hotels? Your first task was to define what you meant by "ideal." So, over the course of the conversation, you narrowed that to hotels that were (1) within a given range of latitude and longitude and that (2) provided the right kind of weather for the client
 
 Requests Library 2.26.0 
+geojson-2.5.0
+gmaps-0.9.0 
 
 * Task: Collect and analyze weather data across cities worldwide.
 * Purpose: PlanMyTrip will use the data to recommend ideal hotels based on clients' weather preferences.
