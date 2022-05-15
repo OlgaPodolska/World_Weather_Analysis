@@ -33,9 +33,15 @@ We created a marker layer map of the vacation search results.
 
 ![map.png](/Vacation_Itinerary/map.png) 
 
-We used the Google Directions API to create a travel itinerary that shows the route between four cities chosen from the customer’s possible travel destinations. Then, create a marker layer map with a pop-up marker for each city on the itinerary.
+We used the Google Directions API to create a travel itinerary that shows the route between four cities chosen from the customer’s possible travel destinations. 
 
-![path.png](/Vacation_Itinerary/path.png) 
+![WeatherPy_travel_map.png](/Vacation_Itinerary/WeatherPy_travel_map.png) 
+
+We created a DataFrame that contains the four cities on the itinerary.
+
+![stop.png](/Vacation_Itinerary/stop.png) 
+
+Then, create a marker layer map with a pop-up marker for each city on the itinerary.
 
 ![WeatherPy_travel_map_markers.png](/Vacation_Itinerary/WeatherPy_travel_map_markers.png) 
 
